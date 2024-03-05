@@ -1,0 +1,23 @@
+.table-layout {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:100%;
+    /* font-family:"Trebuchet MS"; */
+    background-color:white;
+    color:black;
+    margin: 0 auto 0;
+}
+.table-layout td, .table-layout th {
+    border: 1px solid grey;
+    padding: 5px 5px 0;
+    cursor: pointer;
+}
+.table-layout td {
+    text-align: left;
+}
+.selected {
+    color: white;
+    background-color: black;
+}
+

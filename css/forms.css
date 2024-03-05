@@ -1,0 +1,142 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forms_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.forms_header_title{
+    display: flex;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    flex:1;
+    color:rgb(83, 77, 77);
+}
+
+.forms_header_login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.forms_header_login_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forms_header_login_username{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(134, 127, 127);
+    }
+
+.forms_header_login_useraccess{
+    padding-top: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color:rgb(82, 72, 72);
+}
+
+.forms_header_login_userpic{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.forms_content{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex:1;
+}
+
+.forms_content_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:rgb(65, 61, 61);
+    width: 100%;
+    height: 5vh;
+}
+.forms_content_title_icon{
+    padding-top:10px;
+    /* padding-left:20px; */
+}
+
+.forms_content_title_description{
+    font-weight: bold;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.forms_content_box{
+    display: flex;
+    flex-direction: column;
+    margin:0px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.forms_content_box_toolbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(65, 61, 61);
+    width: 100%;
+    text-decoration: none;
+    /* background-color: blue; */
+    margin-top: 20px;
+}
+
+.forms_content_box_toolbar a{
+    color:rgb(65, 61, 61);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forms_content_box_toolbar_item{
+    display: flex;
+    /* margin-top: 30px; */
+    padding-left: 20px;
+    align-items: center;
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+
+.forms_content_box_toolbar_search{
+    display: flex;
+    justify-content: end;
+    position:relative;
+    font-size:14px;
+    margin-right: 20px;
+}
+
+.forms_content_box_tables{
+    /* display: flex; */
+    font-size: 13px;
+    margin:20px 20px 20px 20px;
+}
+
+.forms_content_box_tables_edit{
+    display: flex;
+    color:white;
+    background-color:rgb(60, 60, 185);
+}
+
+.forms_content_box_tables_hapus{
+    color:white;
+    background-color:rgb(133, 47, 47);
+}

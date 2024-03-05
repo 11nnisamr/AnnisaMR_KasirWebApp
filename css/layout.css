@@ -1,0 +1,24 @@
+body {
+    margin:0px;
+}
+
+.layout_container{
+    display: flex;
+    height: 100vh;
+    width:100%;
+}
+
+.layout_menu{
+    display:flex;
+    width:20%;
+    height: 100vh;
+    background-color: #5074dc;
+}
+
+.layout_form{
+    display:flex;
+    width:100%;
+    /* height: 100vh; */
+    background-color: white;
+    /* overflow-y: scroll; */
+}
